@@ -1,10 +1,11 @@
-# Cypress-CircleCI 
+# Cypress-CircleCI
 
-[![CircleCI](https://circleci.com/gh/YOU54F/cypress-parallel/tree/master.svg?style=svg)](https://circleci.com/gh/YOU54F/cypress-parallel/tree/master)[![npm version](https://badge.fury.io/js/cypress-parallel.svg)](https://badge.fury.io/js/cypress-parallel)
+[![CircleCI](https://circleci.com/gh/YOU54F/cypress-circleci/tree/master.svg?style=svg)](https://circleci.com/gh/YOU54F/cypress-circleci/tree/master)
+[![npm version](https://badge.fury.io/js/cypress-circleci.svg)](https://badge.fury.io/js/cypress-circleci)
 
-## A CircleCI Parallel Workflow Project Bootstrap.
+## A CircleCI Parallel Workflow Project Bootstrap
 
-_Features_
+Features
 
 - [X] Output a CircleCI v2.1 Workflow template for all spec files ending in `spec.js` located at `cypress/integration`
 - [X] Reporting with `Mochawesome`
