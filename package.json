@@ -13,7 +13,7 @@
   "scripts": {
     "generate-circle-conf": "node lib/gen-circle.js"
   },
-  "Dependencies": {
+  "dependencies": {
     "cypress": "^3.2.0",
     "mocha": "^5.2.0",
     "uuid": "^3.3.2",
