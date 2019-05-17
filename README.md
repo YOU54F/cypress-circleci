@@ -1,6 +1,7 @@
-# Cypress-CircleCI 
+# Cypress-CircleCI
 
-[![CircleCI](https://circleci.com/gh/YOU54F/cypress-parallel/tree/master.svg?style=svg)](https://circleci.com/gh/YOU54F/cypress-parallel/tree/master)[![npm version](https://badge.fury.io/js/cypress-parallel.svg)](https://badge.fury.io/js/cypress-parallel)
+[![CircleCI](https://circleci.com/gh/YOU54F/cypress-parallel/tree/master.svg?style=svg)](https://circleci.com/gh/YOU54F/cypress-parallel/tree/master)
+[![npm version](https://badge.fury.io/js/cypress-parallel.svg)](https://badge.fury.io/js/cypress-parallel)
 
 ## A CircleCI Parallel Workflow Project Bootstrap.
 

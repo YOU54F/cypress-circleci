@@ -1,6 +1,7 @@
 {
   "name": "cypress-circleci",
-  "version": "0.0.3",
+  "version": "0.0.1",
+  "description": "A CircleCI Parallel Workflow Project Bootstrap",
   "author": "Yousaf Nabi",
   "license": "MIT",
   "bin": {
