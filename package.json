@@ -1,0 +1,25 @@
+{
+  "name": "cypress-circleci",
+  "version": "0.0.3",
+  "author": "Yousaf Nabi",
+  "license": "MIT",
+  "bin": {
+    "cypress-circleci": "./lib/gen-circle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you54f/cypress-circleci.git"
+  },
+  "scripts": {
+    "generate-circle-conf": "node lib/gen-circle.js"
+  },
+  "Dependencies": {
+    "cypress": "^3.2.0",
+    "mocha": "^5.2.0",
+    "uuid": "^3.3.2",
+    "mochawesome": "^3.1.1",
+    "cypress-slack-reporter": "^0.2.6",
+    "shelljs": "^0.8.3",
+    "write-yaml": "^1.0.0"
+  }
+}
