@@ -15,12 +15,12 @@
     "generate-circle-conf": "node lib/gen-circle.js"
   },
   "dependencies": {
-    "cypress": "^3.2.0",
-    "mocha": "^5.2.0",
-    "uuid": "^3.3.2",
-    "mochawesome": "^3.1.1",
-    "cypress-slack-reporter": "^0.2.6",
-    "shelljs": "^0.8.3",
-    "write-yaml": "^1.0.0"
+    "cypress": "3.2.0",
+    "mocha": "5.2.0",
+    "uuid": "3.3.2",
+    "mochawesome": "3.1.2",
+    "cypress-slack-reporter": "0.2.6",
+    "shelljs": "0.8.3",
+    "write-yaml": "1.0.0"
   }
 }
