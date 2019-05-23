@@ -15,7 +15,7 @@
     "generate-circle-conf": "node lib/gen-circle.js"
   },
   "dependencies": {
-    "cypress": "3.3.0",
+    "cypress": "3.3.1",
     "mocha": "5.2.0",
     "uuid": "3.3.2",
     "mochawesome": "3.1.2",
