@@ -1,6 +1,6 @@
 {
   "name": "cypress-circleci",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A CircleCI Parallel Workflow Project Bootstrap",
   "author": "Yousaf Nabi",
   "license": "MIT",
@@ -12,7 +12,8 @@
     "url": "git+https://github.com/you54f/cypress-circleci.git"
   },
   "scripts": {
-    "generate-circle-conf": "node lib/gen-circle.js"
+    "generate-circle-conf": "node lib/gen-circle.js",
+    "release": "standard-version"
   },
   "dependencies": {
     "cypress": "3.3.1",
