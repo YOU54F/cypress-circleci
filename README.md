@@ -18,12 +18,12 @@ Features
 ## Instructions
 
 1. run `npm install cypress-circleci --save`
-2. run `node node_modules/.bin/cypress-circleci` to generate CircleCi config in `./circleci/parallel_config.yml`. (Rename to `config.yml` to use - avoids overwriting existing configs)
+2. run `node node_modules/.bin/cypress-circleci` to generate CircleCi config in `./circleci/config.yml`.
 3. Add a env var `SLACK_WEBHOOK_URL` with your Slack webhook.
-4. Run the workflow in CircleCI by pushing a commit with your renamed `config.yml` in `./circleci/config.yml` in your commit.
-
+4. Run the workflow in CircleCI by pushing a commit with your  `config.yml` in `./circleci/config.yml` in your commit.
 
 ## To do
+
 - [ ] Report merging with `Mochawesome-Merge`
 - [ ] recursive folder search
 - [ ] ts file support / bootstrapping
