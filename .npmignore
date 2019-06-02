@@ -1,3 +1,9 @@
 node_modules/
 cypress
 .circleci
+scripts
+.travis.yml
+cypress.json
+renovate.json
+scripts
+commitlint.config.js
