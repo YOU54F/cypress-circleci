@@ -1,6 +1,6 @@
 {
   "name": "cypress-circleci",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "A CircleCI Parallel Workflow Project Bootstrap",
   "author": "Yousaf Nabi",
   "license": "MIT",
@@ -12,7 +12,9 @@
     "url": "git+https://github.com/you54f/cypress-circleci.git"
   },
   "scripts": {
-    "generate-circle-conf": "node lib/gen-circle.js"
+    "generate-circle-conf": "node lib/gen-circle.js",
+    "release": "standard-version",
+    "deploy:prepare": "./scripts/create_npmrc_file.sh"
   },
   "dependencies": {
     "cypress": "3.3.1",
@@ -22,5 +24,16 @@
     "cypress-slack-reporter": "0.2.6",
     "shelljs": "0.8.3",
     "write-yaml": "1.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "7.6.1",
+    "@commitlint/config-conventional": "7.6.0",
+    "husky": "2.3.0",
+    "standard-version": "6.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
