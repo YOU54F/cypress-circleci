@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.9 (2019-06-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress-slack-reporter to v0.2.8 ([#11](https://github.com/you54f/cypress-circleci/issues/11)) ([c3f6577](https://github.com/you54f/cypress-circleci/commit/c3f6577))
+
+
+
 ### [0.0.8](https://github.com/you54f/cypress-circleci/compare/v0.0.7...v0.0.8) (2019-06-02)
 
 
