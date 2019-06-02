@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/you54f/cypress-circleci/compare/v0.0.3...v0.0.4) (2019-06-02)
+
+
+### Build System
+
+* update build script ([2b2119e](https://github.com/you54f/cypress-circleci/commit/2b2119e))
+
+
+
 ### 0.0.3 (2019-06-02)
 
 
