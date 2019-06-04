@@ -5,7 +5,7 @@
     "toConsole": false
   },
   "mochawesomeReporterOptions": {
-    "reportDir": "cypress/reports/mocha",
+    "reportDir": "mochawesome-report",
     "quiet": true,
     "overwrite": false,
     "html": false,
