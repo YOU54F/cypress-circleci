@@ -66,7 +66,7 @@ jobs:
           name: Running cypress tests 1
           command: >-
             if $(npm bin)/cypress run --spec
-            cypress/integration/sample1.spec.js"; then echo 'pass'; else echo
+            cypress/integration/sample1.spec.js; then echo 'pass'; else echo
             'fail'; fi
       - store_artifacts:
           path: cypress/videos
@@ -99,7 +99,7 @@ jobs:
           name: Running cypress tests 2
           command: >-
             if $(npm bin)/cypress run --spec
-            cypress/integration/sample2.spec.js"; then echo 'pass'; else echo
+            cypress/integration/sample2.spec.js; then echo 'pass'; else echo
             'fail'; fi
       - store_artifacts:
           path: cypress/videos
@@ -132,7 +132,7 @@ jobs:
           name: Running cypress tests 3
           command: >-
             if $(npm bin)/cypress run --spec
-            cypress/integration/sample3.spec.js"; then echo 'pass'; else echo
+            cypress/integration/sample3.spec.js; then echo 'pass'; else echo
             'fail'; fi
       - store_artifacts:
           path: cypress/videos
@@ -165,7 +165,7 @@ jobs:
           name: Running cypress tests 4
           command: >-
             if $(npm bin)/cypress run --spec
-            cypress/integration/sample4.spec.js"; then echo 'pass'; else echo
+            cypress/integration/sample4.spec.js; then echo 'pass'; else echo
             'fail'; fi
       - store_artifacts:
           path: cypress/videos
