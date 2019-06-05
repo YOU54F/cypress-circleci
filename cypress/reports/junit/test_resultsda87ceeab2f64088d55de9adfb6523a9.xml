@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.527" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2019-06-04T23:39:48" tests="0" failures="0" time="0">
-  </testsuite>
-  <testsuite name="Cypress parallel run example - 1" timestamp="2019-06-04T23:39:48" tests="1" failures="0" time="0.527">
-    <testcase name="Cypress parallel run example - 1 should display the title" time="0.527" classname="should display the title">
-    </testcase>
-  </testsuite>
-</testsuites>
