@@ -60,11 +60,14 @@ jobs:
       - run: ls -la cypress
       - run: ls -la cypress/integration
       - run:
+          name: Setting mochawesome report filename to test1
+          command: echo 'export MOCHAWESOME_REPORTFILENAME=test1' >> $BASH_ENV
+      - run:
           name: Running cypress tests 1
           command: >-
-            if $(npm bin)/cypress run --spec cypress/integration/sample1.spec.js
-            --reporter mochawesome --reporter-options "reportFilename=test1";
-            then echo 'pass'; else echo 'fail'; fi
+            if $(npm bin)/cypress run --spec
+            cypress/integration/sample1.spec.js; then echo 'pass'; else echo
+            'fail'; fi
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:
@@ -90,11 +93,14 @@ jobs:
       - run: ls -la cypress
       - run: ls -la cypress/integration
       - run:
+          name: Setting mochawesome report filename to test2
+          command: echo 'export MOCHAWESOME_REPORTFILENAME=test2' >> $BASH_ENV
+      - run:
           name: Running cypress tests 2
           command: >-
-            if $(npm bin)/cypress run --spec cypress/integration/sample2.spec.js
-            --reporter mochawesome --reporter-options "reportFilename=test2";
-            then echo 'pass'; else echo 'fail'; fi
+            if $(npm bin)/cypress run --spec
+            cypress/integration/sample2.spec.js; then echo 'pass'; else echo
+            'fail'; fi
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:
@@ -120,11 +126,14 @@ jobs:
       - run: ls -la cypress
       - run: ls -la cypress/integration
       - run:
+          name: Setting mochawesome report filename to test3
+          command: echo 'export MOCHAWESOME_REPORTFILENAME=test3' >> $BASH_ENV
+      - run:
           name: Running cypress tests 3
           command: >-
-            if $(npm bin)/cypress run --spec cypress/integration/sample3.spec.js
-            --reporter mochawesome --reporter-options "reportFilename=test3";
-            then echo 'pass'; else echo 'fail'; fi
+            if $(npm bin)/cypress run --spec
+            cypress/integration/sample3.spec.js; then echo 'pass'; else echo
+            'fail'; fi
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:
@@ -150,11 +159,14 @@ jobs:
       - run: ls -la cypress
       - run: ls -la cypress/integration
       - run:
+          name: Setting mochawesome report filename to test4
+          command: echo 'export MOCHAWESOME_REPORTFILENAME=test4' >> $BASH_ENV
+      - run:
           name: Running cypress tests 4
           command: >-
-            if $(npm bin)/cypress run --spec cypress/integration/sample4.spec.js
-            --reporter mochawesome --reporter-options "reportFilename=test4";
-            then echo 'pass'; else echo 'fail'; fi
+            if $(npm bin)/cypress run --spec
+            cypress/integration/sample4.spec.js; then echo 'pass'; else echo
+            'fail'; fi
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:
