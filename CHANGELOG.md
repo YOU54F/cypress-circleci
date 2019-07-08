@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/you54f/cypress-circleci/compare/v0.0.10...v0.1.0) (2019-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress to v3.3.2 ([#26](https://github.com/you54f/cypress-circleci/issues/26)) ([b34a65d](https://github.com/you54f/cypress-circleci/commit/b34a65d))
+* **deps:** update dependency cypress-slack-reporter to v0.3.0 ([#14](https://github.com/you54f/cypress-circleci/issues/14)) ([29852fd](https://github.com/you54f/cypress-circleci/commit/29852fd))
+* **deps:** update dependency cypress-slack-reporter to v0.3.1 ([#15](https://github.com/you54f/cypress-circleci/issues/15)) ([974c39d](https://github.com/you54f/cypress-circleci/commit/974c39d))
+* **deps:** update dependency cypress-slack-reporter to v0.4.0 ([#20](https://github.com/you54f/cypress-circleci/issues/20)) ([be9e130](https://github.com/you54f/cypress-circleci/commit/be9e130))
+
+
+### Features
+
+* mocha6 support ([#17](https://github.com/you54f/cypress-circleci/issues/17)) ([9204ef4](https://github.com/you54f/cypress-circleci/commit/9204ef4))
+
+
+
 ### [0.0.10](https://github.com/you54f/cypress-circleci/compare/v0.0.9...v0.0.10) (2019-06-02)
 
 
