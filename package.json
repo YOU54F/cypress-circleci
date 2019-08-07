@@ -17,7 +17,7 @@
     "deploy:prepare": "./scripts/create_npmrc_file.sh"
   },
   "dependencies": {
-    "cypress": "3.4.0",
+    "cypress": "3.4.1",
     "mocha": "6.2.0",
     "uuid": "3.3.2",
     "mochawesome": "3.1.2",
