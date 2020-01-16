@@ -19,7 +19,7 @@
   "dependencies": {
     "cypress": "3.8.2",
     "mocha": "6.2.2",
-    "uuid": "3.3.3",
+    "uuid": "3.4.0",
     "mochawesome": "3.1.2",
     "cypress-slack-reporter": "0.5.0",
     "shelljs": "0.8.3",
