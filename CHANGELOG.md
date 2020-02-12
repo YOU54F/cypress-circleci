@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/you54f/cypress-circleci/compare/v0.1.2...v0.1.3) (2020-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress to v3.5.0 ([0d5f391](https://github.com/you54f/cypress-circleci/commit/0d5f391))
+* **deps:** update dependency cypress to v3.6.0 ([baab653](https://github.com/you54f/cypress-circleci/commit/baab653))
+* **deps:** update dependency cypress to v3.6.1 ([133f9be](https://github.com/you54f/cypress-circleci/commit/133f9be))
+* **deps:** update dependency cypress to v3.7.0 ([341b553](https://github.com/you54f/cypress-circleci/commit/341b553))
+* **deps:** update dependency cypress to v3.8.0 ([f6dbf62](https://github.com/you54f/cypress-circleci/commit/f6dbf62))
+* **deps:** update dependency cypress to v3.8.1 ([9a15b1b](https://github.com/you54f/cypress-circleci/commit/9a15b1b))
+* **deps:** update dependency cypress to v3.8.2 ([a9788cd](https://github.com/you54f/cypress-circleci/commit/a9788cd))
+* **deps:** update dependency cypress to v3.8.3 ([c2feda0](https://github.com/you54f/cypress-circleci/commit/c2feda0))
+* **deps:** update dependency cypress to v4 ([#73](https://github.com/you54f/cypress-circleci/issues/73)) ([1354723](https://github.com/you54f/cypress-circleci/commit/1354723))
+* **deps:** update dependency cypress-slack-reporter to v0.4.4 ([da24a4a](https://github.com/you54f/cypress-circleci/commit/da24a4a))
+* **deps:** update dependency cypress-slack-reporter to v0.4.5 ([9fd7461](https://github.com/you54f/cypress-circleci/commit/9fd7461))
+* **deps:** update dependency cypress-slack-reporter to v0.5.0 ([e3f5f81](https://github.com/you54f/cypress-circleci/commit/e3f5f81))
+* **deps:** update dependency mocha to v6.2.2 ([82e57d8](https://github.com/you54f/cypress-circleci/commit/82e57d8))
+* **deps:** update dependency mocha to v7 ([#64](https://github.com/you54f/cypress-circleci/issues/64)) ([c6ab9fb](https://github.com/you54f/cypress-circleci/commit/c6ab9fb))
+* **deps:** update dependency uuid to v3.4.0 ([ef2c54e](https://github.com/you54f/cypress-circleci/commit/ef2c54e))
+
+
+
 ### [0.1.2](https://github.com/you54f/cypress-circleci/compare/v0.1.1...v0.1.2) (2019-10-17)
 
 
