@@ -28,7 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "cypress-multi-reporters": "1.2.3",
+    "cypress-multi-reporters": "1.2.4",
     "husky": "4.2.2",
     "mocha-junit-reporter": "1.23.3",
     "standard-version": "7.1.0"
